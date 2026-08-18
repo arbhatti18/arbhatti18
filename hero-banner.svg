@@ -1,0 +1,86 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#1a1a4a;#0f0c29" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#302b63">
+        <animate attributeName="stop-color" values="#302b63;#3b2f7a;#302b63" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color" values="#24243e;#1e1e3f;#24243e" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- floating glow orbs -->
+  <circle cx="120" cy="60" r="50" fill="url(#glow)">
+    <animate attributeName="cy" values="60;90;60" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="200" r="70" fill="url(#glow)">
+    <animate attributeName="cy" values="200;170;200" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="50" r="30" fill="url(#glow)">
+    <animate attributeName="cx" values="760;720;760" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- small drifting particles -->
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="60" cy="200" r="2.2">
+      <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="230" r="1.8">
+      <animate attributeName="cy" values="230;210;230" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="120" r="2">
+      <animate attributeName="cy" values="120;140;120" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="30" r="1.6">
+      <animate attributeName="cy" values="30;50;30" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- name: fades and slides in -->
+  <text x="450" y="120" text-anchor="middle" font-family="Verdana, Segoe UI, sans-serif"
+        font-size="46" font-weight="700" fill="url(#textGrad)">
+    Abdul Rehman Bhatti
+    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+  </text>
+  <text x="450" y="120" text-anchor="middle" font-family="Verdana, Segoe UI, sans-serif"
+        font-size="46" font-weight="700" fill="url(#textGrad)" filter="url(#softBlur)" opacity="0.35">
+    Abdul Rehman Bhatti
+  </text>
+
+  <!-- subtitle: soft pulsing glow -->
+  <text x="450" y="168" text-anchor="middle" font-family="Consolas, Menlo, monospace"
+        font-size="19" fill="#c7d2fe" letter-spacing="1">
+    AI Automation Expert &#183; Agentic AI Engineer &#183; Full-Stack Developer &#183; Ethical Hacker
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- underline sweep -->
+  <rect x="250" y="196" width="0" height="3" rx="1.5" fill="url(#textGrad)">
+    <animate attributeName="width" values="0;400;0" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="x" values="250;250;250" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
