@@ -68,29 +68,37 @@
   <circle cx="74" cy="31" r="6" fill="#27c93f" filter="url(#dotGlow)"/>
   <text x="400" y="35" text-anchor="middle" class="mono" font-size="13" fill="#8b93b8">about-me.js</text>
 
-  <!-- code content -->
-  <g class="mono" font-size="16.5">
-    <text x="34" y="90"><tspan class="kw">const</tspan><tspan class="plain"> </tspan><tspan class="var">developer</tspan><tspan class="punc"> = {</tspan></text>
+<!-- code content -->
+  <g class="mono" font-size="14.5">
+    <text x="34" y="82"><tspan class="kw">const</tspan><tspan class="plain"> </tspan><tspan class="var">developer</tspan><tspan class="punc"> = {</tspan></text>
 
-    <text x="34" y="122"><tspan class="plain">  </tspan><tspan class="prop">name</tspan><tspan class="punc">: </tspan><tspan class="str">"Your Name"</tspan><tspan class="punc">,</tspan></text>
+    <text x="34" y="108"><tspan class="plain">  </tspan><tspan class="prop">name</tspan><tspan class="punc">: </tspan><tspan class="str">"Abdul Rehman"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="34" y="150"><tspan class="plain">  </tspan><tspan class="prop">role</tspan><tspan class="punc">: </tspan><tspan class="str">"Full-Stack Developer"</tspan><tspan class="punc">,</tspan></text>
+    <text x="34" y="134"><tspan class="plain">  </tspan><tspan class="prop">role</tspan><tspan class="punc">: </tspan><tspan class="str">"AI Automation Expert &amp; AI Agent Developer"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="34" y="178"><tspan class="plain">  </tspan><tspan class="prop">location</tspan><tspan class="punc">: </tspan><tspan class="str">"Lahore, Pakistan"</tspan><tspan class="punc">,</tspan></text>
+    <text x="34" y="160"><tspan class="plain">  </tspan><tspan class="prop">location</tspan><tspan class="punc">: </tspan><tspan class="str">"Lahore, Pakistan"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="34" y="206"><tspan class="plain">  </tspan><tspan class="prop">stack</tspan><tspan class="punc">: [</tspan><tspan class="str">"JavaScript"</tspan><tspan class="punc">, </tspan><tspan class="str">"React"</tspan><tspan class="punc">, </tspan><tspan class="str">"Node.js"</tspan><tspan class="punc">, </tspan><tspan class="str">"Python"</tspan><tspan class="punc">],</tspan></text>
+    <text x="34" y="186"><tspan class="plain">  </tspan><tspan class="prop">coreStack</tspan><tspan class="punc">: [</tspan><tspan class="str">"Python"</tspan><tspan class="punc">, </tspan><tspan class="str">"CrewAI"</tspan><tspan class="punc">, </tspan><tspan class="str">"LLM APIs"</tspan><tspan class="punc">, </tspan><tspan class="str">"LangChain"</tspan><tspan class="punc">, </tspan><tspan class="str">"FastAPI"</tspan><tspan class="punc">],</tspan></text>
 
-    <text x="34" y="234"><tspan class="plain">  </tspan><tspan class="prop">currentFocus</tspan><tspan class="punc">: </tspan><tspan class="str">"Building scalable web apps"</tspan><tspan class="punc">,</tspan></text>
+    <text x="34" y="212"><tspan class="plain">  </tspan><tspan class="prop">automationTools</tspan><tspan class="punc">: [</tspan><tspan class="str">"n8n"</tspan><tspan class="punc">, </tspan><tspan class="str">"Make.com"</tspan><tspan class="punc">, </tspan><tspan class="str">"Flowise"</tspan><tspan class="punc">],</tspan></text>
 
-    <text x="34" y="262"><tspan class="plain">  </tspan><tspan class="prop">funFact</tspan><tspan class="punc">: </tspan><tspan class="str">"I debug with console.log and pride"</tspan><tspan class="punc">,</tspan></text>
+    <text x="34" y="238"><tspan class="plain">  </tspan><tspan class="prop">architecture</tspan><tspan class="punc">: [</tspan><tspan class="str">"Agentic AI Workflow"</tspan><tspan class="punc">, </tspan><tspan class="str">"RAG"</tspan><tspan class="punc">, </tspan><tspan class="str">"Autonomous Multi-Step Workflows"</tspan><tspan class="punc">],</tspan></text>
 
-    <text x="34" y="290"><tspan class="plain">  </tspan><tspan class="prop">availableFor</tspan><tspan class="punc">: [</tspan><tspan class="str">"collabs"</tspan><tspan class="punc">, </tspan><tspan class="str">"freelance"</tspan><tspan class="punc">, </tspan><tspan class="str">"open-source"</tspan><tspan class="punc">]</tspan></text>
+    <text x="34" y="264"><tspan class="plain">  </tspan><tspan class="prop">deployment</tspan><tspan class="punc">: [</tspan><tspan class="str">"Streamlit"</tspan><tspan class="punc">, </tspan><tspan class="str">"Render"</tspan><tspan class="punc">, </tspan><tspan class="str">"Python-dotenv"</tspan><tspan class="punc">],</tspan></text>
 
-    <text x="34" y="318"><tspan class="punc">};</tspan></text>
+    <text x="34" y="290"><tspan class="plain">  </tspan><tspan class="prop">currentFocus</tspan><tspan class="punc">: </tspan><tspan class="str">"Orchestrating multi-agent autonomous workflows"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="34" y="356"><tspan class="cm">// reach out — always happy to connect</tspan></text>
+    <text x="34" y="316"><tspan class="plain">  </tspan><tspan class="prop">funFact</tspan><tspan class="punc">: </tspan><tspan class="str">"Letting AI agents work so humans can innovate"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="34" y="384"><tspan class="fn">connect</tspan><tspan class="punc">(</tspan><tspan class="var">developer</tspan><tspan class="punc">);</tspan></text>
+    <text x="34" y="342"><tspan class="plain">  </tspan><tspan class="prop">availableFor</tspan><tspan class="punc">: [</tspan><tspan class="str">"Full-time Jobs"</tspan><tspan class="punc">, </tspan><tspan class="str">"Freelance Projects"</tspan><tspan class="punc">, </tspan><tspan class="str">"AI Automations"</tspan><tspan class="punc">, </tspan><tspan class="str">"AI Solutions"</tspan><tspan class="punc">, </tspan><tspan class="str">"Collabs"</tspan><tspan class="punc">]</tspan></text>
+
+    <text x="34" y="368"><tspan class="punc">};</tspan></text>
+
+    <text x="34" y="406"><tspan class="cm">// build autonomous systems — ready to connect</tspan></text>
+
+    <text x="34" y="432"><tspan class="fn">connect</tspan><tspan class="punc">(</tspan><tspan class="var">developer</tspan><tspan class="punc">);</tspan></text>
+
+    <text x="34" y="460"><tspan class="cm">// ✉️ bhattiabdurehman987@gmail.com | 🔗 linkedin.com/in/abdul-rehman-68951832b</tspan></text>
   </g>
 
   <!-- blinking cursor -->
