@@ -23,19 +23,7 @@
 ## 🧠 About Me
 
 I'm an **AI Automation Expert, AI Agent Developer, Full-Stack Web Developer, and Certified Ethical Hacker** — I design intelligent, secure, scalable systems that turn manual work into automated workflows.
-
-```python
-class AbdulRehmanBhatti:
-    def __init__(self):
-        self.role       = ["AI Automation Expert", "Agentic AI Engineer", "Full-Stack Dev", "Ethical Hacker"]
-        self.stack      = ["Python", "LLMs", "AI Agents", "APIs", "Automation", "Cybersecurity"]
-        self.currently  = "building agentic AI systems that solve real business problems"
-        self.status     = "Final-Year BSCS Student 🎓"
-
-    def say_hi(self):
-        return "Let's build something intelligent together 🚀"
-```
-
+![About Me](./about-me-terminal.svg)
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=2&section=header" width="100%"/>
